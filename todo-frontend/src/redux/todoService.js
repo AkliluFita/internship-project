@@ -1,10 +1,10 @@
 import http from "../http-common";
 
 const getAllTodos = () => {
-  return http.get("http://localhost:8000/api/v1/tasks");
+  return http.get("/tasks");
 };
 const getTodosByStatus = (status) => {
-  return http.get(`http://localhost:8000/api/v1/tasks/${status}`);
+  return http.get(`/tasks/${status}`);
 };
 
 const todoService = {
