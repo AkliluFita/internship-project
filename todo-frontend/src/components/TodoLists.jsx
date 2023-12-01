@@ -20,8 +20,11 @@ const TodoLists = ({ active }) => {
 
   if (todoStatus === "success") {
     return (
-      <div className="p-2 border border-black rounded-md">
-        <table className="w-full table-auto ">
+      <div
+        className="p-2 border border-black rounded-md"
+        data-testid="todoList-container"
+      >
+        <table className="w-full table-auto " data-testid="todoList-table">
           <thead className="w-full ">
             <tr className="text-lg uppercase">
               <th className=" text-start">title</th>
