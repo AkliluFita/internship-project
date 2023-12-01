@@ -40,3 +40,6 @@ The setup is completed
 - `@testing-library/user-event`: Simulates user events (e.g., clicks, typing) in tests.
 - `jest`: JavaScript testing framework.
 - `jest-environment-jsdom`: JSDOM environment for Jest.
+- `Mock Service Worker(MSW)`: to mock ntk request.
+
+testing reference guid link with redux => linkhttps://redux.js.org/usage/writing-tests
