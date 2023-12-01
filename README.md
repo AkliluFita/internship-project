@@ -32,7 +32,7 @@ To get started for checking the project, follow these steps:
 
 ## Testing
 
-The frontend of this project will be tested  using the following libraries:
+The frontend of this project has been tested using the following libraries:
 The setup is completed
 
 - `@testing-library/jest-dom`: Provides custom Jest matchers for more convenient assertions in tests.
@@ -40,3 +40,6 @@ The setup is completed
 - `@testing-library/user-event`: Simulates user events (e.g., clicks, typing) in tests.
 - `jest`: JavaScript testing framework.
 - `jest-environment-jsdom`: JSDOM environment for Jest.
+- `Mock Service Worker(MSW)`: to mock ntk request.
+
+testing reference guid link with redux => link https://redux.js.org/usage/writing-tests
